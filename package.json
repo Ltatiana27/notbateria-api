@@ -1,0 +1,21 @@
+{
+  "name": "notbateria-api",
+  "version": "1.0.0",
+  "description": "API REST para la gestión de configuraciones de NotBateria",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": ["notbateria", "api", "rest", "express"],
+  "author": "Lizeth Sanabria, Dilan Abella",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
